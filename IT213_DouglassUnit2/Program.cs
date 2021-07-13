@@ -13,10 +13,10 @@ namespace IT213_DouglassUnit2
             //*********************************************************
 
 
-            Console.WriteLine("Please enter a whole number: ");             
+            Console.Write("Please enter a whole number: ");             
             int firstNum = Convert.ToInt32(Console.ReadLine());             // Convert first number to int
 
-            Console.WriteLine("Please enter another whole number: ");
+            Console.Write("Please enter another whole number: ");
             int secNum = Convert.ToInt32(Console.ReadLine());               // Convert second number to int
 
             // Begin comparisons of first and second numbers
@@ -53,7 +53,7 @@ namespace IT213_DouglassUnit2
             //*********************************************************
 
             Console.WriteLine(" ");
-            Console.WriteLine("Please enter a numerical grade: ");
+            Console.Write("Please enter a numerical grade: ");
             int grade = Convert.ToInt32(Console.ReadLine());                //Convert grade to an int
 
             if (grade >= 60)                                                // Check if grade equal to or greater than 60
@@ -72,7 +72,7 @@ namespace IT213_DouglassUnit2
             //*********************************************************
 
             Console.WriteLine(" ");
-            Console.WriteLine("Please enter a month in numerical format (1 - 12): ");
+            Console.Write("Please enter a month in numerical format (1 - 12): ");
             int month = Convert.ToInt32(Console.ReadLine());                //Convert month to an int
 
             // Determine the name of the month entered
@@ -137,7 +137,7 @@ namespace IT213_DouglassUnit2
             //*********************************************************
 
             Console.WriteLine(" ");
-            Console.WriteLine("Please enter a day of the week in numerical format (1 - 7): ");
+            Console.Write("Please enter a day of the week in numerical format (1 - 7): ");
             int weekDay = Convert.ToInt32(Console.ReadLine());                //Convert week day to an int
 
             // Determine the name of the day of week
